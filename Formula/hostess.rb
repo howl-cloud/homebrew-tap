@@ -1,30 +1,30 @@
 class Hostess < Formula
   desc "Deploy entire stacks with a single command"
   homepage "https://hostess.sh"
-  version "0.3.5"
+  version "0.4.0"
   license :closed
 
   on_macos do
     on_arm do
-      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.3.5/hostess-darwin-arm64"
-      sha256 "4112f2dd0038756cf1a2d28420616e3ddedcf32ed9a0abfa075875605aea6640"
+      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.4.0/hostess-darwin-arm64"
+      sha256 "4ef80597720fbf1b9d60bb1365be5277f9fec3ec468461ea23252ab64c0fbc82"
     end
 
     on_intel do
-      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.3.5/hostess-darwin-amd64"
-      sha256 "fbfa18536ae7206e01129dee3cab42cf6c069fb25983606e09785f458efe544f"
+      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.4.0/hostess-darwin-amd64"
+      sha256 "3e75a478354f0646cb6e4e62c114979767c82497d8db0a0dc07fda32193a814a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.3.5/hostess-linux-arm64"
-      sha256 "80bc98960f1c5bc1f97788eb26a56be314a61eaebddbd135fca32ccf508307fc"
+      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.4.0/hostess-linux-arm64"
+      sha256 "629230828c3a9fb3b63b5af3a5d9ee310580568d8b21e7e77a3440ec86357c07"
     end
 
     on_intel do
-      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.3.5/hostess-linux-amd64"
-      sha256 "8c2580265a0fbe6719bb5d29b6ecdbeb72fc409d01a03090db58ad5fbed3d581"
+      url "https://github.com/howl-cloud/hostess-cli/releases/download/v0.4.0/hostess-linux-amd64"
+      sha256 "618fc169652474018a8650a5dd3f672710f894681c8c38da97c5ec7d850155be"
     end
   end
 
